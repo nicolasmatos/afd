@@ -2,7 +2,7 @@
 public class Principal {
 
     public static void main(String[] args) {
-        Verificacao v = new Verificacao();
+        Verificacoes v = new Verificacoes();
         System.out.println("\n\nSaida: " + v.validaEntrada());
     }
 }
