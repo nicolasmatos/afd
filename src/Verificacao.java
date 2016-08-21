@@ -2,12 +2,12 @@ import java.util.List;
 
 public class Verificacao extends Funcoes{
     private int i, j, saida = 0;
-    private char estadoProx;
-    private char estadoIni;
-    private String stringEstadosFinais;
-    private String stringAlfabeto;
-    private String stringTransicoes;
-    private String stringEntrada;
+    private char estadoProx = '0';
+    private char estadoIni = '1';
+    private String stringEstadosFinais = "2,3";
+    private String stringAlfabeto = "0,1";
+    private String stringTransicoes = "101, 112, 203, 212, 302, 312";
+    private String stringEntrada = "00011";
 
     private List<String> estadosFinais = this.separarString(stringEstadosFinais);
     private List<String> alfabeto = this.separarString(stringAlfabeto);
@@ -15,7 +15,7 @@ public class Verificacao extends Funcoes{
     private List<Character> transicoes = this.separarChar(transicoesListS);
     private List<String> entrada = this.separarString(stringEntrada);
 
-    private int validaEntrada() {
+    public int validaEntrada() {
         for(i = 0; i < entrada.size(); i++) {
             for(j = 0; j < transicoes.size(); j+=3) {
                 if(estadoIni == transicoes.get(j)

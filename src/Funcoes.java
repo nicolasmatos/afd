@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Funcoes {
     private List<String> resultString;
-    private List<Character> resultChar;
+    private ArrayList<Character> resultChar = new ArrayList<Character>();
 
     public List<String> separarString (String s) {
         String[] itens = s.split(",");
@@ -11,11 +12,11 @@ public class Funcoes {
         return resultString;
     }
 
-    public List<Character> separarChar (List<String> a) {
+    public ArrayList<Character> separarChar (List<String> a) {
         for(int i = 0; i < a.size(); i++) {
-            char[] itens = a.get(i).toCharArray();
-            for(int j = 0; j < itens.length; j++) {
-                resultChar.add(itens[j]);
+            String itens = a.get(i);
+            for(char c : itens.toCharArray()) {
+                resultChar.add(c);
             }
         }
         return resultChar;
