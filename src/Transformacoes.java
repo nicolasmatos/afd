@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Funcoes {
+public class Transformacoes {
     private List<String> resultString;
     private ArrayList<Character> resultChar = new ArrayList<Character>();
     private ArrayList<Character> resultChar2 = new ArrayList<Character>();
