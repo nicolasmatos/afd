@@ -5,6 +5,7 @@ import java.util.List;
 public class Funcoes {
     private List<String> resultString;
     private ArrayList<Character> resultChar = new ArrayList<Character>();
+    private ArrayList<Character> resultChar2 = new ArrayList<Character>();
 
     public List<String> separarString (String s) {
         String[] itens = s.split(",");
@@ -20,6 +21,13 @@ public class Funcoes {
             }
         }
         return resultChar;
+    }
+
+    public ArrayList<Character> separarChar (String a) {
+            for(char c : a.toCharArray()) {
+                resultChar2.add(c);
+            }
+        return resultChar2;
     }
 
     public void imprimirString(List<String> teste) {

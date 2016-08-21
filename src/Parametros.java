@@ -11,7 +11,7 @@ public class Parametros extends Funcoes{
     private List<String> alfabeto = this.separarString(stringEstadosFinais);
     private List<String> transicoesListS = this.separarString(stringTransicoes);
     private List<Character> transicoes = this.separarChar(transicoesListS);
-    private List<String> entrada = this.separarString(stringEntrada);
+    private List<Character> entrada = this.separarChar(stringEntrada);
 
     public char getEstadoIni() {
         return estadoIni;
@@ -25,7 +25,7 @@ public class Parametros extends Funcoes{
     public List<Character> getTransicoes() {
         return transicoes;
     }
-    public List<String> getEntrada() {
+    public List<Character> getEntrada() {
         return entrada;
     }
 }
