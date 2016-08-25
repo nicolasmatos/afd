@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package afd;
 
 public class FormAutomato extends javax.swing.JFrame {
@@ -232,15 +227,20 @@ public class FormAutomato extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {}
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
-    private void jFormattedTextField1ActionPerformed(java.awt.event.ActionEvent evt) {}
+    private void jFormattedTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFormattedTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jFormattedTextField1ActionPerformed
 
-    private void jbtExecutarActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtExecutarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtExecutarActionPerformed
         Automato a  = new Automato(jtxtAlfabeto.getText(), Integer.parseInt(jtxtQtdEstados.getText()), jtxtTransicoes.getText(), jtxtEstadoIni.getText(), jtxtEstadosFinais.getText(), jtxtEntrada.getText());
         jtxaResultado.setText(a.verificacao()) ;
-    }
+    }//GEN-LAST:event_jbtExecutarActionPerformed
 
+    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFormattedTextField jFormattedTextField1;
     private javax.swing.JInternalFrame jInternalFrame1;
     private javax.swing.JLabel jLabel1;
@@ -266,4 +266,5 @@ public class FormAutomato extends javax.swing.JFrame {
     private javax.swing.JTextField jtxtTransicoes;
     private java.awt.Label label1;
     private java.awt.Panel panel1;
+    // End of variables declaration//GEN-END:variables
 }

@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f4557fb-f3fd-42d3-83b2-c502c3eb1d00" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/Automato.class" afterPath="$PROJECT_DIR$/build/classes/afd/Automato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$1.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$2.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$3.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/Automato.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/Automato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$1.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$2.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$3.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/Automato.java" afterPath="$PROJECT_DIR$/src/afd/Automato.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/FormAutomato.java" afterPath="$PROJECT_DIR$/src/afd/FormAutomato.java" />
     </list>
@@ -27,11 +38,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FormAutomato.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="256" column="39" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
+              <folding>
+                <element signature="e#438#439#0" expanded="false" />
+                <element signature="e#445#475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Automato.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="501">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,18 +67,6 @@
             <state relative-caret-position="85">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormAutomato.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="246" column="40" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
-              <folding>
-                <element signature="e#445#475#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -659,15 +671,15 @@
       <workItem from="1471696478358" duration="21906000" />
       <workItem from="1471908982888" duration="629000" />
       <workItem from="1471928139558" duration="13435000" />
-      <workItem from="1472148369778" duration="527000" />
+      <workItem from="1472148369778" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36497000" />
+    <option name="totallyTimeSpent" value="39354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -737,7 +749,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -809,9 +821,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="246" column="40" selection-start-line="246" selection-start-column="40" selection-end-line="246" selection-end-column="40" />
+        <state relative-caret-position="266">
+          <caret line="256" column="39" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
           <folding>
+            <element signature="e#438#439#0" expanded="false" />
             <element signature="e#445#475#0" expanded="true" />
           </folding>
         </state>
@@ -819,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="501">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
           <folding />
         </state>
       </provider>

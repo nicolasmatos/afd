@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package afd;
 
 import java.util.ArrayList;
@@ -89,7 +84,7 @@ public class Automato {
             saida = 0;
         }
 
-        resultado+="\nEstado Final: " + estadoAtual.getRepresentacao();
+        resultado+="\n" + (eIvalido ? "Estado invalido" : "Estado Final: " + estadoAtual.getRepresentacao());
         resultado+="\nSaida: " + saida;
         return resultado;
     }
