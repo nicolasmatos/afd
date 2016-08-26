@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4557fb-f3fd-42d3-83b2-c502c3eb1d00" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/Automato.class" afterPath="$PROJECT_DIR$/build/classes/afd/Automato.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$1.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$2.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato$3.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato.class" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/Automato.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/Automato.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$1.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$2.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$3.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato.class" afterPath="$PROJECT_DIR$/out/production/afd/afd/FormAutomato.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/afd/FormAutomato.form" afterPath="$PROJECT_DIR$/build/classes/afd/FormAutomato.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/Automato.java" afterPath="$PROJECT_DIR$/src/afd/Automato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/FormAutomato.form" afterPath="$PROJECT_DIR$/src/afd/FormAutomato.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/FormAutomato.java" afterPath="$PROJECT_DIR$/src/afd/FormAutomato.java" />
     </list>
     <ignored path="afd.iws" />
@@ -41,12 +36,9 @@
       <file leaf-file-name="FormAutomato.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="256" column="39" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
-              <folding>
-                <element signature="e#438#439#0" expanded="false" />
-                <element signature="e#445#475#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="935">
+              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,9 +46,12 @@
       <file leaf-file-name="Automato.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+              <folding>
+                <element signature="method#Automato#0;class#Automato#0" expanded="false" />
+                <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/afd/Estado.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,7 +69,7 @@
       <file leaf-file-name="Transicao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="170">
               <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
@@ -129,8 +124,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -672,14 +667,15 @@
       <workItem from="1471908982888" duration="629000" />
       <workItem from="1471928139558" duration="13435000" />
       <workItem from="1472148369778" duration="3384000" />
+      <workItem from="1472160696209" duration="2316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39354000" />
+    <option name="totallyTimeSpent" value="41670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,11 +686,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29654405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2940171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24840085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -749,7 +745,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -758,30 +754,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="935">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transicao.java">
+    <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#Automato#0;class#Automato#0" expanded="false" />
+            <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/afd/Estado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Estado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Principal.java" />
+    <entry file="file://$PROJECT_DIR$/src/Transicao.java" />
+    <entry file="file://$PROJECT_DIR$/src/Estado.java" />
     <entry file="file://$PROJECT_DIR$/src/Principal.java" />
     <entry file="file://$PROJECT_DIR$/src/Transicao.java" />
     <entry file="file://$PROJECT_DIR$/src/Estado.java" />
@@ -798,22 +800,6 @@
     <entry file="file://$PROJECT_DIR$/src/Transicao.java" />
     <entry file="file://$PROJECT_DIR$/src/Estado.java" />
     <entry file="file://$PROJECT_DIR$/src/Principal.java" />
-    <entry file="file://$PROJECT_DIR$/src/afd/Estado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -821,20 +807,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="256" column="39" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
-          <folding>
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#445#475#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="935">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/afd/Estado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+          <folding>
+            <element signature="method#Automato#0;class#Automato#0" expanded="false" />
+            <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

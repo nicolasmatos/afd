@@ -28,14 +28,36 @@ public class Automato {
         entrada = new ArrayList<>();
     }
     
-    public Automato(){
+    public Automato(){}
+    
+    public boolean verificarEntrada(){
+        boolean result = false;
+        String[] alfabeto = txtAlfabeto.split(",");
+        String[] entrada = txtEntrada.split("/");
         
+        for(int i = 0; i < entrada.length; i++) {
+            result = false;
+            for(int j = 0; j < alfabeto.length; j++) {
+                if(entrada[i].equals(alfabeto[j])){
+                    result = true;
+                    j = alfabeto.length;
+                } 
+                else if (j + 1 == alfabeto.length && result != true) {
+                    i = entrada.length;
+                }
+            }
+        }
+        return result;
     }
 
     public String verificacao() {
         String resultado = "";
+        
+        if(!this.verificarEntrada()) {
+            return resultado+="Entrada inválida!";
+        }
 
-        String[] alfabeto = txtAlfabeto.split(",");
+        String[] entrada = txtEntrada.split("/");
         Estado[] estados = new Estado[qtdEstados + 1];
 
         for (int i = 1; i <= qtdEstados; i++) {
@@ -57,16 +79,12 @@ public class Automato {
             estados[Integer.parseInt(terminal)].seteFinal(true);
         }
 
-        for (String e : txtEntrada.split("/")) {
-            entrada.add(e);
-        }
-
-        for(int i = 0; i < entrada.size(); i++) {
+        for(int i = 0; i < entrada.length; i++) {
             for(int j = 0; j < estadoAtual.getTransicoes().size(); j++) {
                 resultado+="\nEstado atual: " + estadoAtual.getRepresentacao();
                 resultado+="\nValor: " + estadoAtual.getTransicoes().get(j).getValor();
-                resultado+="\nEntrada: " + entrada.get(i);
-                if (estadoAtual.getTransicoes().get(j).getValor().equals(entrada.get(i))) {
+                resultado+="\nEntrada: " + entrada[i];
+                if (estadoAtual.getTransicoes().get(j).getValor().equals(entrada[i])) {
                     estadoAtual = estadoAtual.getTransicoes().get(j).getEstadoDest();
                     j = estadoAtual.getTransicoes().size();
                 }
