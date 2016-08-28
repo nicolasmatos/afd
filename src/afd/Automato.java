@@ -29,7 +29,11 @@ public class Automato {
     }
     
     public Automato(){}
-    
+
+    public int getQtdEstados() {
+        return qtdEstados;
+    }
+        
     public boolean verificarEntrada(){
         boolean result = false;
         String[] alfabeto = txtAlfabeto.split(",");
