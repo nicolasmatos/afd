@@ -40,7 +40,7 @@ public class FormAutomato extends javax.swing.JFrame {
         jbtExecutar = new java.awt.Button();
         jScrollPane1 = new javax.swing.JScrollPane();
         jtxaResultado = new javax.swing.JTextArea();
-        jPanelDesenho = new javax.swing.JPanel();
+        jPanelDesenho = new Desenho();
 
         jTextField1.setText("jTextField1");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {

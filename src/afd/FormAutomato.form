@@ -258,6 +258,9 @@
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanelDesenho">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new Desenho()"/>
+      </AuxValues>
 
       <Layout>
         <DimensionLayout dim="0">

@@ -7,8 +7,8 @@ import javax.swing.JPanel;
 
 public class Desenho extends JPanel{
     int qtdEstados;
-    int centro = 165;
-    int raio = 145;
+    int centro = 125;
+    int raio = 100;
 
     public void setQtdEstados(int qtdEstados) {
         this.qtdEstados = qtdEstados;
