@@ -53,12 +53,21 @@ public class Desenho extends JPanel{
         g.setColor(Color.DARK_GRAY);
         g.setFont(new Font("Arial", Font.PLAIN, 12));
         g.drawString(representacao + "", x + ((representacao < 10) ? 6 : 3), y + 15);
+        
+        g.setColor(Color.DARK_GRAY);
+        g.drawArc(x - 10, y - 30, 40, 40, 240, -300);
     }
     
     
     private void DesenharTransicoes(Graphics g) {
-        for (int i = 1; i < qtdEstados+1; i++) {
-            Linha(g, Integer.parseInt(estados[i].getRepresentacao()), Integer.parseInt(estados[i].getTransicoes().get(i).getEstadoDest().getRepresentacao()));
+        if(estados != null){
+            for (int i = 1; i < estados.length; i++) {
+                Estado e = estados[i];
+                for (int j = 0; j < e.getTransicoes().size(); j++) {
+                    Transicao t = e.getTransicoes().get(j);
+                    Linha(g, Integer.parseInt(e.getRepresentacao()), Integer.parseInt(t.getEstadoDest().getRepresentacao()));
+                }
+            }
         }
     }
     
@@ -69,6 +78,7 @@ public class Desenho extends JPanel{
      * @param destino 
      */
     private void Linha(Graphics g, int inicio, int destino) {
+        //System.out.println("Linha\n Inicio: " + inicio + "\nFim: " + destino + "\n\n\n");
         int xInicio, yInicio, xDestino, yDestino;
 
         double cossenoInicio = Math.cos(Math.toRadians(360 * inicio / qtdEstados));
@@ -84,6 +94,8 @@ public class Desenho extends JPanel{
         yDestino = centro + (int) (raio * senoDestino);
 
         g.setColor(Color.DARK_GRAY);
+        //g.drawArc(xInicio, yInicio, xDestino, yDestino, 180, -180);
+        //g.drawArc(xInicio + 10, yInicio + 10, xDestino + 10, yDestino + 10, 0, 0);
         g.drawLine(xInicio + 10, yInicio + 10, xDestino + 10, yDestino + 10);
 
        // g.setColor(Color.CYAN);

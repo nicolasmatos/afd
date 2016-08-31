@@ -6,9 +6,11 @@ public class Estado {
     private boolean eInicial;
     private boolean eFinal;
     private String representacao;
-    private ArrayList<Transicao> transicoes = new ArrayList<>();
+    private ArrayList<Transicao> transicoes;
 
-    public Estado() {}
+    public Estado() {
+        transicoes = new ArrayList<>();
+    }
 
     public Estado(boolean eInicial, boolean eFinal, String representacao, ArrayList<Transicao> transicoes) {
         this.eInicial = eInicial;
