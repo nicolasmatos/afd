@@ -97,11 +97,21 @@ public class FormAutomato extends javax.swing.JFrame {
 
         lblEstados.setText("Estados");
 
+        jtxtAlfabeto.setText("0,1,2,3,4,5,6,7,8,9");
+
+        jtxtQtdEstados.setText("3");
+
+        jtxtEstadosFinais.setText("1");
+
         lblEstadoInicial.setText("Estado Inicial");
 
         lblEstadosFinais.setText("Estados Finais");
 
         lblEntrada.setText("Entrada");
+
+        jtxtEstadoIni.setText("1");
+
+        jtxtEntrada.setText("1/3/7/3");
 
         jbtExecutar.setBackground(new java.awt.Color(245, 245, 245));
         jbtExecutar.setLabel("Verificar");
@@ -216,7 +226,9 @@ public class FormAutomato extends javax.swing.JFrame {
     private void jbtExecutarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtExecutarActionPerformed
         Automato a  = new Automato(jtxtAlfabeto.getText(), Integer.parseInt(jtxtQtdEstados.getText()), jtxtTransicoes.getText(), jtxtEstadoIni.getText(), jtxtEstadosFinais.getText(), jtxtEntrada.getText());
         jtxaResultado.setText(a.verificacao());
+        ((Desenho)jPanelDesenho).setEstados(a.getEstados());
         ((Desenho)jPanelDesenho).setQtdEstados(a.getQtdEstados());
+        
         jPanelDesenho.repaint();
     }//GEN-LAST:event_jbtExecutarActionPerformed
 

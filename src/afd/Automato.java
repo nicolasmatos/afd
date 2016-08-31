@@ -13,7 +13,10 @@ public class Automato {
     private String txtInicial;
     private String txtFinais;
     private String txtEntrada;
-    private ArrayList<String> entrada;
+    //private ArrayList<String> entrada;
+   
+    private String[] entrada;// = txtEntrada.split("/");
+    private Estado[] estados;// = new Estado[qtdEstados + 1];  
 
     public Automato(String txtAlfabeto, int qtdEstados, String txtTransicoes, String txtInicial, String txtFinais, String txtEntrada) {
         this.txtAlfabeto = txtAlfabeto;
@@ -22,10 +25,12 @@ public class Automato {
         this.txtInicial = txtInicial;
         this.txtFinais = txtFinais;    
         this.txtEntrada = txtEntrada;
+        entrada = txtEntrada.split("/");
+        estados = new Estado[qtdEstados + 1];
         
         eIvalido = false;
         saida = 0;
-        entrada = new ArrayList<>();
+        //entrada = new ArrayList<>();
     }
     
     public Automato(){}
@@ -33,7 +38,11 @@ public class Automato {
     public int getQtdEstados() {
         return qtdEstados;
     }
-        
+
+    public Estado[] getEstados() {
+        return estados;
+    }
+    
     public boolean verificarEntrada(){
         boolean result = false;
         String[] alfabeto = txtAlfabeto.split(",");
@@ -60,10 +69,7 @@ public class Automato {
         if(!this.verificarEntrada()) {
             return resultado+="Entrada inválida!";
         }
-
-        String[] entrada = txtEntrada.split("/");
-        Estado[] estados = new Estado[qtdEstados + 1];
-
+        
         for (int i = 1; i <= qtdEstados; i++) {
             estados[i] = new Estado();
             estados[i].setRepresentacao(Integer.toString(i));
