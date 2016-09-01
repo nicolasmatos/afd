@@ -10,6 +10,8 @@ public class FormAutomato extends javax.swing.JFrame {
         FormAutomato f = new FormAutomato();
         f.setVisible(true);
         f.setTitle("Verificar autômato");
+        f.setResizable(false);
+        f.setLocationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")
@@ -26,14 +28,12 @@ public class FormAutomato extends javax.swing.JFrame {
         lblAlfabeto = new javax.swing.JLabel();
         lblQtdEstados = new javax.swing.JLabel();
         lblTransicoes = new javax.swing.JLabel();
-        lblEstados = new javax.swing.JLabel();
         jtxtAlfabeto = new javax.swing.JTextField();
         jtxtQtdEstados = new javax.swing.JTextField();
         jtxtEstadosFinais = new javax.swing.JTextField();
         lblEstadoInicial = new javax.swing.JLabel();
         lblEstadosFinais = new javax.swing.JLabel();
         lblEntrada = new javax.swing.JLabel();
-        jtxtEstados = new javax.swing.JTextField();
         jtxtEstadoIni = new javax.swing.JTextField();
         jtxtTransicoes = new javax.swing.JTextField();
         jtxtEntrada = new javax.swing.JTextField();
@@ -95,8 +95,6 @@ public class FormAutomato extends javax.swing.JFrame {
 
         lblTransicoes.setText("Transições");
 
-        lblEstados.setText("Estados");
-
         jtxtAlfabeto.setText("0,1,2,3,4,5,6,7,8,9");
 
         jtxtQtdEstados.setText("3");
@@ -127,15 +125,17 @@ public class FormAutomato extends javax.swing.JFrame {
         jtxaResultado.setRows(5);
         jScrollPane1.setViewportView(jtxaResultado);
 
+        jPanelDesenho.setPreferredSize(new java.awt.Dimension(578, 428));
+
         javax.swing.GroupLayout jPanelDesenhoLayout = new javax.swing.GroupLayout(jPanelDesenho);
         jPanelDesenho.setLayout(jPanelDesenhoLayout);
         jPanelDesenhoLayout.setHorizontalGroup(
             jPanelDesenhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 355, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanelDesenhoLayout.setVerticalGroup(
             jPanelDesenhoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 468, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -144,52 +144,57 @@ public class FormAutomato extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(lblEntrada)
-                        .addComponent(lblAlfabeto)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jtxtAlfabeto, javax.swing.GroupLayout.DEFAULT_SIZE, 124, Short.MAX_VALUE)
-                                .addComponent(lblQtdEstados)
-                                .addComponent(jtxtQtdEstados)
-                                .addComponent(lblEstadoInicial)
-                                .addComponent(jtxtEstadoIni))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(lblEstadosFinais)
-                                .addComponent(lblEstados)
-                                .addComponent(jtxtEstados, javax.swing.GroupLayout.DEFAULT_SIZE, 124, Short.MAX_VALUE)
-                                .addComponent(jtxtEstadosFinais)))
-                        .addComponent(lblTransicoes)
-                        .addComponent(jtxtTransicoes)
-                        .addComponent(jtxtEntrada))
-                    .addComponent(jbtExecutar, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(32, 32, 32)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 352, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jPanelDesenho, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 21, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanelDesenho, javax.swing.GroupLayout.DEFAULT_SIZE, 522, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblEntrada)
+                                    .addComponent(lblTransicoes)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblEstadoInicial)
+                                            .addComponent(jtxtEstadoIni, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblEstadosFinais)
+                                            .addComponent(jtxtEstadosFinais, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jtxtTransicoes)
+                                    .addComponent(jtxtEntrada)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblAlfabeto)
+                                            .addComponent(jtxtAlfabeto, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblQtdEstados)
+                                            .addComponent(jtxtQtdEstados)))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jbtExecutar, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(0, 26, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(11, 11, 11)
-                        .addComponent(lblAlfabeto)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jtxtAlfabeto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblAlfabeto)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jtxtAlfabeto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblQtdEstados)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jtxtQtdEstados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lblQtdEstados)
-                            .addComponent(lblEstados))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jtxtQtdEstados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jtxtEstados, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblEstadosFinais)
                             .addComponent(lblEstadoInicial))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -206,12 +211,10 @@ public class FormAutomato extends javax.swing.JFrame {
                         .addComponent(jtxtEntrada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jbtExecutar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 258, Short.MAX_VALUE)
-                            .addComponent(jPanelDesenho, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(22, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jPanelDesenho, javax.swing.GroupLayout.DEFAULT_SIZE, 468, Short.MAX_VALUE)
+                .addGap(26, 26, 26))
         );
 
         pack();
@@ -247,7 +250,6 @@ public class FormAutomato extends javax.swing.JFrame {
     private javax.swing.JTextField jtxtAlfabeto;
     private javax.swing.JTextField jtxtEntrada;
     private javax.swing.JTextField jtxtEstadoIni;
-    private javax.swing.JTextField jtxtEstados;
     private javax.swing.JTextField jtxtEstadosFinais;
     private javax.swing.JTextField jtxtQtdEstados;
     private javax.swing.JTextField jtxtTransicoes;
@@ -255,7 +257,6 @@ public class FormAutomato extends javax.swing.JFrame {
     private javax.swing.JLabel lblAlfabeto;
     private javax.swing.JLabel lblEntrada;
     private javax.swing.JLabel lblEstadoInicial;
-    private javax.swing.JLabel lblEstados;
     private javax.swing.JLabel lblEstadosFinais;
     private javax.swing.JLabel lblQtdEstados;
     private javax.swing.JLabel lblTransicoes;
