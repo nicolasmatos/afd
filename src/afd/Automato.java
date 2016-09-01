@@ -5,19 +5,23 @@ import java.util.ArrayList;
 public class Automato {
     
     private Estado estadoAtual;
+    
     private boolean eIvalido;
-    private String txtAlfabeto;
+    
     private int qtdEstados;
     private int saida;
+    
+    private String txtAlfabeto;
     private String txtTransicoes;
     private String txtInicial;
     private String txtFinais;
     private String txtEntrada;
-    //private ArrayList<String> entrada;
    
-    private String[] entrada;// = txtEntrada.split("/");
-    private Estado[] estados;// = new Estado[qtdEstados + 1];  
-
+    private String[] entrada;
+    private Estado[] estados;
+    
+    public Automato(){}
+    
     public Automato(String txtAlfabeto, int qtdEstados, String txtTransicoes, String txtInicial, String txtFinais, String txtEntrada) {
         this.txtAlfabeto = txtAlfabeto;
         this.qtdEstados = qtdEstados;
@@ -30,23 +34,14 @@ public class Automato {
         
         eIvalido = false;
         saida = 0;
-        //entrada = new ArrayList<>();
     }
     
-    public Automato(){}
-
-    public int getQtdEstados() {
-        return qtdEstados;
-    }
-
-    public Estado[] getEstados() {
-        return estados;
-    }
-    
+    /**
+     * Verifica se a entrada recebida é válida 
+     */
     public boolean verificarEntrada(){
         boolean result = false;
         String[] alfabeto = txtAlfabeto.split(",");
-        String[] entrada = txtEntrada.split("/");
         
         for(int i = 0; i < entrada.length; i++) {
             result = false;
@@ -62,14 +57,13 @@ public class Automato {
         }
         return result;
     }
-
-    public String verificacao() {
-        String resultado = "";
-        
-        if(!this.verificarEntrada()) {
-            return resultado+="Entrada inválida!";
-        }
-        
+    
+    /**
+     * Inicializa o array de estados 
+     * Inicializa o array de transições determinando as transições de cada estado
+     * Determina o estado inicial e o conjunto de estados finais
+     */
+    public void setValores () {
         for (int i = 1; i <= qtdEstados; i++) {
             estados[i] = new Estado();
             estados[i].setRepresentacao(Integer.toString(i));
@@ -87,6 +81,18 @@ public class Automato {
 
         for (String terminal : txtFinais.split(",")) {
             estados[Integer.parseInt(terminal)].seteFinal(true);
+        }
+    }
+
+    /**
+     * Verifica se a entrada leva a um estado final válido
+     */
+    public String verificacao() {
+        this.setValores();
+        String resultado = "";
+        
+        if(!this.verificarEntrada()) {
+            return resultado+="Entrada inválida!";
         }
 
         for(int i = 0; i < entrada.length; i++) {
@@ -108,12 +114,13 @@ public class Automato {
         if (estadoAtual.iseFinal() && eIvalido != true) {
             saida = 1;
         }
-        else {
-            saida = 0;
-        }
 
         resultado+="\n" + (eIvalido ? "Estado invalido" : "Estado Final: " + estadoAtual.getRepresentacao());
         resultado+="\nSaida: " + saida;
         return resultado;
     }
+    
+    public int getQtdEstados() {return qtdEstados;}
+    public Estado[] getEstados() {return estados;}
+    
 }
