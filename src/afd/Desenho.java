@@ -92,12 +92,13 @@ public class Desenho extends JPanel{
      */
     private void DesenharTransicoes(Graphics g, int inicio, int destino) {
         String valor = "";
-        for (int j = 0; j < estados[inicio].getTransicoes().size(); j++) {
-            Transicao t = estados[inicio].getTransicoes().get(j);
+        for (int i = 0; i < estados[inicio].getTransicoes().size(); i++) {
+            Transicao t = estados[inicio].getTransicoes().get(i);
             if (Integer.parseInt(t.getEstadoDest().getRepresentacao()) == destino) {
                 valor = valor + t.getValor() + ", ";
             }
         }
+        valor = valor.substring (0, valor.length() - 2);
         
         int xInicio, yInicio, xDestino, yDestino;
 
