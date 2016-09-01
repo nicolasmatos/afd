@@ -111,6 +111,8 @@ public class FormAutomato extends javax.swing.JFrame {
 
         jtxtEstadoIni.setText("1");
 
+        jtxtTransicoes.setText("1/0/1,1/0/2,1/0/3/,3/0/3");
+
         jtxtEntrada.setText("1/3/7/3");
 
         jbtExecutar.setBackground(new java.awt.Color(245, 245, 245));
