@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f4557fb-f3fd-42d3-83b2-c502c3eb1d00" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/FormAutomato.java" afterPath="$PROJECT_DIR$/src/afd/FormAutomato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/afd/Automato.java" afterPath="$PROJECT_DIR$/src/afd/Automato.java" />
     </list>
     <ignored path="afd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,27 +26,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FormAutomato.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormAutomato.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <marker date="1472679482310" expanded="true" signature="4471:4619" ph="{...}" />
-                <marker date="1472679482310" expanded="true" signature="4544:4563" ph=" { " />
-                <marker date="1472679482310" expanded="true" signature="4595:4609" ph=" }" />
+                <element signature="method#main#0;class#FormAutomato#0" expanded="false" />
+                <element signature="e#407#496#0" expanded="true" />
+                <element signature="method#initComponents#0;class#FormAutomato#0" expanded="false" />
+                <element signature="e#12633#12677#0" expanded="false" />
+                <element signature="e#12859#12912#0" expanded="false" />
+                <element signature="method#jbtExecutarActionPerformed#0;class#FormAutomato#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Automato.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Automato.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
-                <marker date="1472658844904" expanded="true" signature="2064:3972" ph="{...}" />
+                <element signature="method#Automato#1;class#Automato#0" expanded="false" />
+                <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+                <element signature="method#setValores#0;class#Automato#0" expanded="false" />
+                <element signature="method#verificacao#0;class#Automato#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,22 +64,7 @@
             <state relative-caret-position="153">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#541#542#0" expanded="false" />
-                <element signature="e#572#573#0" expanded="false" />
-                <element signature="e#621#622#0" expanded="false" />
-                <element signature="e#661#662#0" expanded="false" />
-                <element signature="e#712#713#0" expanded="false" />
-                <element signature="e#745#746#0" expanded="false" />
-                <element signature="e#791#792#0" expanded="false" />
-                <element signature="e#829#830#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#905#906#0" expanded="false" />
-                <element signature="e#963#964#0" expanded="false" />
-                <element signature="e#1013#1014#0" expanded="false" />
-                <element signature="e#1046#1047#0" expanded="false" />
-                <element signature="e#1075#1076#0" expanded="false" />
-                <element signature="e#1120#1121#0" expanded="false" />
-                <element signature="e#1156#1157#0" expanded="false" />
+                <element signature="method#Estado#1;class#Estado#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,17 +73,10 @@
       <file leaf-file-name="Transicao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding>
-                <element signature="e#282#283#0" expanded="false" />
-                <element signature="e#310#311#0" expanded="false" />
-                <element signature="e#352#353#0" expanded="false" />
-                <element signature="e#386#387#0" expanded="false" />
-                <element signature="e#423#424#0" expanded="false" />
-                <element signature="e#456#457#0" expanded="false" />
-                <element signature="e#508#509#0" expanded="false" />
-                <element signature="e#552#553#0" expanded="false" />
+                <element signature="method#Transicao#1;class#Transicao#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -132,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/Estado.java" />
         <option value="$PROJECT_DIR$/src/Transicao.java" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
-        <option value="$PROJECT_DIR$/src/afd/Automato.java" />
         <option value="$PROJECT_DIR$/src/afd/FormAutomato.java" />
+        <option value="$PROJECT_DIR$/src/afd/Automato.java" />
       </list>
     </option>
   </component>
@@ -146,8 +130,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -174,9 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,6 +196,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -691,40 +675,41 @@
       <workItem from="1472148369778" duration="3384000" />
       <workItem from="1472160696209" duration="2316000" />
       <workItem from="1472322692138" duration="286000" />
+      <workItem from="1472750203218" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42648000" />
+    <option name="totallyTimeSpent" value="42817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12597547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8017094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -805,9 +790,12 @@
         <state relative-caret-position="935">
           <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding>
-            <marker date="1472679482310" expanded="true" signature="4471:4619" ph="{...}" />
-            <marker date="1472679482310" expanded="true" signature="4544:4563" ph=" { " />
-            <marker date="1472679482310" expanded="true" signature="4595:4609" ph=" }" />
+            <element signature="method#main#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#407#496#0" expanded="true" />
+            <element signature="method#initComponents#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#12633#12677#0" expanded="false" />
+            <element signature="e#12859#12912#0" expanded="false" />
+            <element signature="method#jbtExecutarActionPerformed#0;class#FormAutomato#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,14 +805,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#352#353#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
+            <element signature="method#Transicao#1;class#Transicao#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,22 +815,7 @@
         <state relative-caret-position="85">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="method#Estado#1;class#Estado#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,7 +826,10 @@
         <state relative-caret-position="263">
           <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
-            <marker date="1472658844904" expanded="true" signature="2064:3972" ph="{...}" />
+            <element signature="method#Automato#1;class#Automato#0" expanded="false" />
+            <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+            <element signature="method#setValores#0;class#Automato#0" expanded="false" />
+            <element signature="method#verificacao#0;class#Automato#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,9 +839,12 @@
         <state relative-caret-position="935">
           <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding>
-            <marker date="1472679482310" expanded="true" signature="4471:4619" ph="{...}" />
-            <marker date="1472679482310" expanded="true" signature="4544:4563" ph=" { " />
-            <marker date="1472679482310" expanded="true" signature="4595:4609" ph=" }" />
+            <element signature="method#main#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#407#496#0" expanded="true" />
+            <element signature="method#initComponents#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#12633#12677#0" expanded="false" />
+            <element signature="e#12859#12912#0" expanded="false" />
+            <element signature="method#jbtExecutarActionPerformed#0;class#FormAutomato#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,7 +854,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1472658844904" expanded="true" signature="2064:3972" ph="{...}" />
+            <element signature="method#Automato#1;class#Automato#0" expanded="false" />
+            <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+            <element signature="method#setValores#0;class#Automato#0" expanded="false" />
+            <element signature="method#verificacao#0;class#Automato#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -892,22 +867,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="method#Estado#1;class#Estado#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,44 +896,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#352#353#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/afd/Estado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#661#662#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="method#Estado#1;class#Estado#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/afd/Transicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="method#Transicao#1;class#Transicao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#407#496#0" expanded="true" />
+            <element signature="method#initComponents#0;class#FormAutomato#0" expanded="false" />
+            <element signature="e#12633#12677#0" expanded="false" />
+            <element signature="e#12859#12912#0" expanded="false" />
+            <element signature="method#jbtExecutarActionPerformed#0;class#FormAutomato#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,21 +934,12 @@
     <entry file="file://$PROJECT_DIR$/src/afd/Automato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding>
-            <marker date="1472658844904" expanded="true" signature="2064:3972" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/afd/FormAutomato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <marker date="1472679482310" expanded="true" signature="4471:4619" ph="{...}" />
-            <marker date="1472679482310" expanded="true" signature="4544:4563" ph=" { " />
-            <marker date="1472679482310" expanded="true" signature="4595:4609" ph=" }" />
+            <element signature="method#Automato#1;class#Automato#0" expanded="false" />
+            <element signature="method#verificarEntrada#0;class#Automato#0" expanded="false" />
+            <element signature="method#setValores#0;class#Automato#0" expanded="false" />
+            <element signature="method#verificacao#0;class#Automato#0" expanded="false" />
           </folding>
         </state>
       </provider>

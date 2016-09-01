@@ -1,7 +1,5 @@
 package afd;
 
-import java.util.ArrayList;
-
 public class Automato {
     
     private Estado estadoAtual;
@@ -106,6 +104,7 @@ public class Automato {
                 }
                 else if(j + 1 == estadoAtual.getTransicoes().size()) {
                     eIvalido = true;
+                    i = entrada.length;
                 }
                 resultado+="\nEstado Destino: " + estadoAtual.getRepresentacao() + "\n";
             }
