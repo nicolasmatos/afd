@@ -17,5 +17,4 @@ public class Transicao {
 
     public Estado getEstadoDest() { return estadoDest; }
     public void setEstadoDest(Estado estadoDest) { this.estadoDest = estadoDest; }
-    
 }

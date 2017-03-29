@@ -280,7 +280,7 @@
     <Container class="javax.swing.JPanel" name="jPanelDesenho">
       <Properties>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[578, 428]"/>
+          <Dimension value="[578, 2000]"/>
         </Property>
       </Properties>
       <AuxValues>

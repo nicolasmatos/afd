@@ -125,7 +125,7 @@ public class FormAutomato extends javax.swing.JFrame {
         jtxaResultado.setRows(5);
         jScrollPane1.setViewportView(jtxaResultado);
 
-        jPanelDesenho.setPreferredSize(new java.awt.Dimension(578, 428));
+        jPanelDesenho.setPreferredSize(new java.awt.Dimension(578, 2000));
 
         javax.swing.GroupLayout jPanelDesenhoLayout = new javax.swing.GroupLayout(jPanelDesenho);
         jPanelDesenho.setLayout(jPanelDesenhoLayout);
